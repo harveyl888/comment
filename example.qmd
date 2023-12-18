@@ -3,7 +3,7 @@ title: "Comment Example"
 format:
   html:
     css: style.css
-show_comments: false
+show_comments: true  ## true: show comments, false: hide comments
 ---
 
 ## Comments Test - Commented text within a paragraph

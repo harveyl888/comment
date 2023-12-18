@@ -1,13 +1,11 @@
 # Comment Extension For Quarto
 
-_TODO_: Add a short description of your extension.
+A simple Quarto shortcode to add and manage commented text to a document or project.
 
 ## Installing
 
-_TODO_: Replace the `<github-organization>` with your GitHub organization.
-
 ```bash
-quarto add <github-organization>/comment
+quarto add harveyl888/comment
 ```
 
 This will install the extension under the `_extensions` subdirectory.
@@ -15,7 +13,9 @@ If you're using version control, you will want to check in this directory.
 
 ## Using
 
-_TODO_: Describe how to use your extension.
+Embed commented text using `{{comment_start}}` and `{{comment_stop}}`.  Comment text inline using `{{comment_inline text}}`.  
+The project or document-level variable `show_comments` is a boolean controlling whether comments are rendered or hidden.  
+Comments can be styled by adjusting the `cmt` class in `style.css`.
 
 ## Example
 
