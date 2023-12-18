@@ -1,0 +1,19 @@
+---
+title: "Comment Example"
+format:
+  html:
+    css: style.css
+show_comments: false
+---
+
+## Comments Test - Commented text within a paragraph
+
+This is some uncommented text.
+{{< comment_start >}}
+Here is a <b>comment</b> containing some instructional information.
+{{< comment_stop >}}
+Finally, some additional uncommented text.
+
+## Comments Test - Inline commenting
+
+This comment is an inline comment {{< comment "It can include instruction within the text" >}} followed by addititional text.
